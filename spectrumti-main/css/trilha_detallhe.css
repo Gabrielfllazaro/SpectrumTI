@@ -1,0 +1,65 @@
+body {
+    background: #1a2e3d;
+    color: #fff;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.trilha-header {
+    background: #223949;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-iniciar {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #00bfff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lista-cursos {
+    margin-top: 30px;
+}
+
+.aula-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2f3d;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.aula-info {
+    display: flex;
+    gap: 10px;
+}
+
+.aula-numero {
+    font-weight: bold;
+    color: #00bfff;
+}
+
+.link_voltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00bfff;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.link_voltar:hover {
+    background: #00bfff;
+    color: #fff;
+    transition: 0.3s;
+}
